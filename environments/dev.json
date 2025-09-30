@@ -1,0 +1,15 @@
+{
+  "accountId": "111111111111",
+  "region": "ap-southeast-1",
+  "environment": "dev",
+  "s3": {
+    "createBucket": true,
+    "bucketName": null
+  },
+  "resources": {
+    "ecsMemory": 512,
+    "ecsCpu": 256,
+    "schedule": "cron(0 9 1 * ? *)",
+    "removalPolicy": "DESTROY"
+  }
+}

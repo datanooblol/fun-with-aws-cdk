@@ -21,7 +21,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# Python lib directories (but not CDK lib/)
+**/lib/
+!infra/lib/
+!**/infra/lib/
 lib64/
 parts/
 sdist/
